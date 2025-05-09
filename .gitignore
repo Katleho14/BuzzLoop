@@ -1,0 +1,39 @@
+# Ignore Python cache files
+
+
+# Ignore environment files
+.env
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+node_modules/
+npm-debug.log*
+yarn.lock
+.pnpm-debug.log
+# OS and IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (sensitive info)
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist
+/build
+/out
+/tmp
+.cache
+*.bak
+*.swp
